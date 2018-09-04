@@ -1,0 +1,17 @@
+*.obj
+*.dll
+*.exe
+*.Debug
+*.Release
+*.exp
+*.pdb
+*.o
+*.user
+Makefile
+Makefile.Debug
+Makefile.Release
+*.lib
+temp/
+*.manifest
+*.bak
+*.log

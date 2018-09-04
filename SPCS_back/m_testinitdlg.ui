@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>M_TestInitDlg</class>
+ <widget class="QDialog" name="M_TestInitDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>377</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>43</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>377</width>
+    <height>287</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>377</width>
+    <height>287</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>测试初始化</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../bin/image/607logo-6464.png</normaloff>../bin/image/607logo-6464.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>361</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="title">
+     <string>测试项</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_filed">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>13</y>
+       <width>121</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+     </property>
+     <property name="title">
+      <string>测试类型</string>
+     </property>
+     <widget class="QRadioButton" name="radioButton_magn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>28</y>
+        <width>79</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>幅度测试</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_phase">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>73</y>
+        <width>79</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>相位测试</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_magn_phase">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>118</y>
+        <width>79</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>幅相测试</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>101</width>
+       <height>144</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>28</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_phase_test">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>配相测试</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton_filed_test">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>场值测试</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_cfg_table">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>180</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_select_cfg_table">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>31</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>初始配相表</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_14">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>9</y>
+      <width>81</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>工作状态</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>37</number>
+     </property>
+     <property name="leftMargin">
+      <number>16</number>
+     </property>
+     <item>
+      <widget class="QRadioButton" name="radioButton_send">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>发射</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_receive">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>接收</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="n_cancel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_manu_test">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>手动测试</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_OK">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>确定 </string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
